@@ -23,3 +23,9 @@
         align-self: map-get($flex-map, $way);
     }
 };
+
+//flex-grow
+
+.flex-grow{
+    flex-grow: 1;
+}

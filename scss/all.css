@@ -117,7 +117,7 @@ body {
 }
 
 .font-secondary {
-  color: #CED4DA;
+  color: #00000099;
 }
 
 .font-danger {
@@ -381,6 +381,10 @@ body {
   margin-bottom: 48px;
 }
 
+.-ms-1 {
+  margin-left: -1px;
+}
+
 .p-1 {
   padding: 16px;
 }
@@ -584,7 +588,7 @@ body {
 }
 
 .border-secondary {
-  border: 1px #CED4DA solid;
+  border: 1px #00000099 solid;
 }
 
 .border-danger {
@@ -608,7 +612,7 @@ body {
 }
 
 .border-top-secondary {
-  border-top: 1px #CED4DA solid;
+  border-top: 1px #00000099 solid;
 }
 
 .border-top-danger {
@@ -632,7 +636,7 @@ body {
 }
 
 .border-right-secondary {
-  border-right: 1px #CED4DA solid;
+  border-right: 1px #00000099 solid;
 }
 
 .border-right-danger {
@@ -656,7 +660,7 @@ body {
 }
 
 .border-bottom-secondary {
-  border-bottom: 1px #CED4DA solid;
+  border-bottom: 1px #00000099 solid;
 }
 
 .border-bottom-danger {
@@ -680,7 +684,7 @@ body {
 }
 
 .border-left-secondary {
-  border-left: 1px #CED4DA solid;
+  border-left: 1px #00000099 solid;
 }
 
 .border-left-danger {
@@ -855,6 +859,12 @@ body {
       align-self: space-evenly;
 }
 
+.flex-grow {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
 .link-primary {
   color: #121212;
 }
@@ -870,5 +880,278 @@ body {
 .link-primary-left:hover {
   border-left: 4px #198754 solid;
   color: #198754;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.home-banner-description {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-banner {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.home-banner-link {
+  border: 1px #121212 solid;
+  padding: 36px 48px;
+  font-size: 24px;
+  color: #121212;
+}
+
+.home-banner-link:hover {
+  color: #5f5f5f;
+}
+
+.btn {
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-file {
+  background-color: #F8F9FA;
+  color: #121212;
+  border: 1px #6C757D solid;
+}
+
+.btn-file:hover {
+  background-color: #dae0e5;
+}
+
+.btn-primary {
+  color: #198754;
+  border: 1px #198754 solid;
+}
+
+.btn-primary:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+.btn-secondary {
+  color: #00000099;
+  border: 1px #00000099 solid;
+}
+
+.btn-secondary:hover {
+  background-color: #00000099;
+  color: #fff;
+}
+
+.btn-danger {
+  color: #DC3545;
+  border: 1px #DC3545 solid;
+}
+
+.btn-danger:hover {
+  background-color: #DC3545;
+  color: #fff;
+}
+
+.btn-info {
+  color: #6C757D;
+  border: 1px #6C757D solid;
+}
+
+.btn-info:hover {
+  background-color: #6C757D;
+  color: #fff;
+}
+
+.btn-light {
+  color: #F8F9FA;
+  border: 1px #F8F9FA solid;
+}
+
+.btn-light:hover {
+  background-color: #F8F9FA;
+  color: #fff;
+}
+
+.btn-dark {
+  color: #121212;
+  border: 1px #121212 solid;
+}
+
+.btn-dark:hover {
+  background-color: #121212;
+  color: #fff;
+}
+
+.btn-primary-lg {
+  color: #198754;
+  border: 1px #198754 solid;
+  padding: 8px 48px;
+}
+
+.btn-primary-lg:hover {
+  background-color: #198754;
+  color: #fff;
+}
+
+.btn-secondary-lg {
+  color: #00000099;
+  border: 1px #00000099 solid;
+  padding: 8px 48px;
+}
+
+.btn-secondary-lg:hover {
+  background-color: #00000099;
+  color: #fff;
+}
+
+.btn-danger-lg {
+  color: #DC3545;
+  border: 1px #DC3545 solid;
+  padding: 8px 48px;
+}
+
+.btn-danger-lg:hover {
+  background-color: #DC3545;
+  color: #fff;
+}
+
+.btn-info-lg {
+  color: #6C757D;
+  border: 1px #6C757D solid;
+  padding: 8px 48px;
+}
+
+.btn-info-lg:hover {
+  background-color: #6C757D;
+  color: #fff;
+}
+
+.btn-light-lg {
+  color: #F8F9FA;
+  border: 1px #F8F9FA solid;
+  padding: 8px 48px;
+}
+
+.btn-light-lg:hover {
+  background-color: #F8F9FA;
+  color: #fff;
+}
+
+.btn-dark-lg {
+  color: #121212;
+  border: 1px #121212 solid;
+  padding: 8px 48px;
+}
+
+.btn-dark-lg:hover {
+  background-color: #121212;
+  color: #fff;
+}
+
+.btn-white:hover, .btn-white-lg:hover {
+  color: #121212;
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translateY(-200%);
+            transform: translateY(-200%);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.slideDown {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: slideInDown;
+          animation-name: slideInDown;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: slideInRight;
+          animation-name: slideInRight;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes slideInLeft {
+  from {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translateX(200%);
+            transform: translateX(200%);
+    visibility: visible;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.slideInLeft {
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-name: slideInLeft;
+          animation-name: slideInLeft;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 /*# sourceMappingURL=all.css.map */

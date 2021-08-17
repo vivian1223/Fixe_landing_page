@@ -1,0 +1,18 @@
+.home-banner-description{
+justify-content: center;
+}
+
+.home-banner{
+    object-fit: cover;
+}
+
+.home-banner-link{
+    border: 1px $dark solid;
+    padding:36px 48px;
+    font-size: 24px;
+    color: $dark;
+    &:hover{
+    color: lighten($dark, 30%);
+    }
+
+}

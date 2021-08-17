@@ -26,6 +26,10 @@
             margin-bottom: $spacer *  map-get($margin-base, $name);
         }
     };
+
+.-ms-1{
+    margin-left: -1px;
+}    
 //padding
 
 @each $name in $padding-name {
