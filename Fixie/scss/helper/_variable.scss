@@ -1,6 +1,8 @@
-//text
-
+//base variables
 $spacer: 4px;
+$translate-list:"x","y";
+
+//text
 $font-name:"1","2","3","4";
 $font-base:(
     "1":4,
@@ -111,3 +113,15 @@ $flex-map:(
 
 //z-index
 $index-name:1,2,3,4,5,6,7,8,9,10,11,12;
+
+//font famliy
+$font-family-list:'Lato','Merriweather';
+//font-weight
+$font-weight-list:'regular','bold','black';
+$font-weight-map:(
+    'regular':400,
+    'bold':700,
+    'black':900
+)
+
+
